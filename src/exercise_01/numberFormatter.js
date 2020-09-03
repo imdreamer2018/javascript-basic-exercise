@@ -4,9 +4,9 @@ export default function formatNumber(number, option) {
   // a `currency` property. If the property is `true`, a dollar sign will be added to the result.
   //
   // Your target:
+  return option ? `$ ${number.toFixed(2).toString()}` : number.toFixed(2).toString();
   //
   // * Please implement the function and pass all the tests in format_number_spec.js.
   // * Please do NOT modify the signature of the function.
 
-  throw new Error('Please delete this line and implement the function');
 }
